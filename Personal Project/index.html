@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a Student who just started learning coding and currently I'm learning HTML, CSS and JavaScript. Explore my new project and contact me for any inquiries."
+    />
+<meta itemprop="name" content="Laxman Bhattarai's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a Student who just started learning coding and currently I'm learning HTML, CSS and JavaScript. Explore my new project and contact me for any inquiries.">
+
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Laxman Bhattarai's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a Student who just started learning coding and currently I'm learning HTML, CSS and JavaScript. Explore my new project and contact me for any inquiries.">
+
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Laxman Bhattarai's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a Student who just started learning coding and currently I'm learning HTML, CSS and JavaScript. Explore my new project and contact me for any inquiries.">
+
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <title>Laxman Bhattarai's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1">
+            <span>Hi, I'm Laxman Bhattarai</span>
+            <span>Student at Ulsan College</span>
+          </h1>
+
+          <p class="header-text">
+            I'm a student wanna be Web Developer from Nepal.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Teach me</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">My Articles</h2>
+          <div class="article-boxes">
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    22 Useful CSS Tips and Tricks Every Developer Should Know
+                  </h3>
+                  <p class="article-text">
+                    1.Docs Layout: Create a responsive documentation-styled layout with only two lines of CSS.
+                    ....
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Laxmannnnnnn" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img src="https://www.publicdomainpictures.net/pictures/320000/velka/heart-emoji.png" alt="heart" width="20" height="20" />
+                    416
+                  </span>
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="https://i1.wp.com/laptopmedia.com/wp-content/uploads/2017/06/macbook_pro_13_a_1143_0_0.jpg?fit=2040%2C1727&ssl=1.png alt="MacBook Pro" width="100" height="100" />
+              </picture>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">JavaScript Default Function Parameters.</h3>
+                  <p class="article-text">
+                    In JavaScript when we call a function which expects some
+                    data to be passed in if you call that without passing
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Laxmannnnnnn" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                    <img src="https://www.publicdomainpictures.net/pictures/320000/velka/heart-emoji.png" alt="heart" width="20" height="20" />
+                    300
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">HTML tips and tricks.</h3>
+                  <div class="article-text">
+                    In my very last article I shared some JavaScript tips and
+                    tricks In this article I will be covering HTML tips and
+                    tricks.
+                  </div>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Laxmannnnnnn" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      loading="lazy"
+                      <img src="https://www.publicdomainpictures.net/pictures/320000/velka/heart-emoji.png" alt="heart" width="20" height="20" />
+
+                    350
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/800px-Svelte_Logo.svg.png" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+                 <img src="https://accessibilityspark.com/wp-content/uploads/2021/06/153-1534140_apple-accessibility-icon-aka-vito-white-humanoid-help.jpg" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+                 <img src="https://logowik.com/content/uploads/images/nextjs7685.logowik.com.webp" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.png" alt="Graph Ql" class="skills-img" loading="lazy" title="Graph QL">
+                 <img src="https://logowik.com/content/uploads/images/git6963.jpg" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+            </figure>
+          </div>
+        </div>
+      </section>
+      
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/Laxmannnnnnn" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Codepen" href="https://github.com/Laxmannnnnnn" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="https://cdn.icon-icons.com/icons2/2699/PNG/512/codepen_logo_icon_169360.png"
+                    alt="Codepen"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/laxman-bhattarai-048591300/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.png"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://github.com/Laxmannnnnnn" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.png"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://github.com/Laxmannnnnnn">Laxman Bhattarai.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
